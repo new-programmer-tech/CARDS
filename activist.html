@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="act.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+
+ 
+  background-color: aqua;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body style="background-color: chartreuse;">
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Gallery</a>
+  <a href="#">Login</a>
+  
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<section style="background-color: aquamarine;">
+    <div class="container">
+
+        <h1 class="heading"> MEET THE ACTIVIST</h1>
+
+       
+
+        <div class="card-wrapper">
+            <div class="card">
+
+               
+                
+                <img src="images/back.jpg" alt="card background" class="card-img">
+                <img src="images/leo.jpg" alt="profile_image" class="profile-img" >
+               
+                <h1>Leonardo DiCaprio</h1>
+
+               
+                <p class="about">
+                    DiCaprio has worked to bring attention and funding to the protection of biodiversity,
+                     ocean and forest conservation, and climate change. The Leonardo DiCaprio Foundation 
+                     supports over 35 innovative 
+                    conservation projects around the world that protect fragile ecosystems and key species.</p>
+
+                    <a href="https://www.youtube.com/watch?v=vTyLSr_VCcg" >  FOR MORE DETAILS CLICK HERE</a>
+    </a>
+
+                <ul class="social-media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                 </ul>
+            </div>
+        
+            
+    
+        <div class="card">
+            <img src="images/saa.jpg" alt="card background" class="card-img">
+            <img src="images/sa.jfif" alt="profile_image" class="profile-img" >
+            <h1>Saalumarada Thimmakka</h1>
+            <p class="about">Saalumarada Thimmakka, also known as Aalada Marada Timakka, is an Indian environmentalist 
+                from the state of Karnataka, noted for her
+                 work in planting and tending to 385 banyan trees along
+                 a four-kilometre
+                 stretch of highway between Hulikal and Kudur. She has also planted nearly 8000 other trees.</p>
+
+
+                 <a href="https://www.youtube.com/watch?v=Tyi7XGTTQUA" >  FOR MORE DETAILS CLICK HERE</a>
+           
+
+            <ul class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+             </ul>
+        </div>
+
+        
+        <div class="card">
+            <img src="images/indian-farmers2.jpg" alt="card background" class="card-img">
+            <img src="images/va.jfif" alt="profile_image" class="profile-img" >
+            <h1>Vandana Shiva</h1>
+
+            <p class="about">Vandana Shiva is an Indian scholar,
+                 environmental activist, food sovereignty advocate,
+                  and anti-globalization author. Based in Delhi, Shiva 
+                  has written more than 20 books. Shiva is one of the leaders and board members
+                 of the International Forum on Globalization,
+                  and a figure of the anti-globalization movement..</p>
+
+                  <a href="https://www.youtube.com/watch?v=jEqS6rnoyYc" >  FOR MORE DETAILS CLICK HERE</a>
+
+               
+           
+
+            <ul class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+             </ul>
+        </div>
+
+
+        
+        <div class="card">
+            <img src="images/pan.jpg" alt="card background" class="card-img">
+            <img src="images/Ridhima-Pandey-Thumbnail.png" alt="profile_image" class="profile-img" >
+            <h1>Vandana Shiva</h1>
+
+            <p class="about">Ridhima Pandey (born 2009)
+                 is an activist from India who campaigns for action against climate change
+                 At age nine, Pandey filed a suit against the Indian Government on the basis
+                  that they had not taken the significant steps against climate change that 
+                  they had agreed to in the Paris Agreement. 
+                 </p>
+           
+
+            <ul class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+             </ul>
+        </div>
+    
+        <div class="card">
+            <img src="images/kk.jpg" alt="card background" class="card-img">
+            <img src="images/Krithi-Karanth-CWS.jpg" alt="profile_image" class="profile-img" >
+
+            <h1>Krithi Karanth</h1>
+
+            <p class="about">Krithi Karanth has a Ph.D from Duke (2008),
+                 a M.E.Sc from Yale (2003), and, B.S and B.A degrees from 
+                 the University of Florida (2001). Her research in India and
+                  Asia spans 22 years encompasses many issues in human dimensions
+                   of wildlife conservation. She has conducted macro-level studies
+                  .</p>
+           
+
+            <ul class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+             </ul>
+        </div>
+   
+        <div class="card">
+            <img src="images/ppp.jpg" alt="card background" class="card-img">
+            <img src="images/li.jpg" alt="profile_image" class="profile-img" >
+            <h1>Licypriya Kangujam</h1>
+
+            <p class="about">Licypriya Kangujam is a child environmental activist from India. She is one of the youngest climate activists globally. She addressed world leaders at the
+                 United Nations Climate Conference 2019 in Madrid,
+                  Spain asking them to take immediate climate actions.</p>
+           
+
+            <ul class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+             </ul>
+        </div>
+    </div>
+
+    
+   
+</section>
+
+
+
+   
+</body>
+</html> 
